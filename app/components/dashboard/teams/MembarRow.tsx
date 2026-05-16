@@ -31,9 +31,9 @@ export default function MemberRow({ name, email, role, initials, bgColor, tasks 
           </span>
         </td>
 
-        {/* Action Buttons */}
+        {/* Action Buttons */} 
         <td className="p-6">
-          <div className="flex items-center justify-end gap-2">
+          <div className="flex items-center justify-end gap-3">
             {/* Details Button */}
             <button 
               onClick={() => setIsDrawerOpen(true)}
