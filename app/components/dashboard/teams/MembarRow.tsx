@@ -1,6 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
+
 import {  Edit2, Trash2, Eye,  } from "lucide-react";
+
+
 import { useState } from "react";
 import MemberTasksDrawer from "./MembarTask";
 
@@ -31,9 +34,11 @@ export default function MemberRow({ name, email, role, initials, bgColor, tasks 
           </span>
         </td>
 
-        {/* Action Buttons */} 
+
+        {/* Action Buttons */}
         <td className="p-6">
-          <div className="flex items-center justify-end gap-3">
+          <div className="flex items-center justify-end gap-2">
+
             {/* Details Button */}
             <button 
               onClick={() => setIsDrawerOpen(true)}
